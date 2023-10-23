@@ -49,6 +49,18 @@ int main()
         }
         num2 /= 10;
     }
-
+    // Comparar las cantidades de digitos primos y mostrar el resultado
+    if (contador1 > contador2)
+    {
+        printf("El primer numero tiene mas digitos primos que el segundo.\n");
+    }
+    else if (contador2 > contador1)
+    {
+        printf("El segundo numero tiene mas digitos primos que el primero.\n");
+    }
+    else
+    {
+        printf("Ambos numeros tienen la misma cantidad de digitos primos.\n");
+    }
     return 0;
 }
