@@ -21,6 +21,7 @@ int main()
             return 0;
         }
     }
-
+    printf("%d es primo.\n", n); // Si el bucle se completa sin encontrar ningun factor,
+    // entonces el numero es primo y el programa imprime que el numero es primo
     return 0;
 }
