@@ -12,6 +12,7 @@ int main()
     {
         sum += i;
     }
-
+    // se imprime el resultado
+    printf("La suma de todos los enteros comprendidos entre 1 y %d es %d.\n", n, sum);
     return 0;
 }
