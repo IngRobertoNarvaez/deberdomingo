@@ -1,7 +1,12 @@
 #include <stdio.h>
-
+// Se arma primero la estructura base del proyecto
 int main()
 {
+    // Inicialos la variable
+    int n;
+    printf("Ingrese un numero entero: ");
+    // hacemos que lea la variable que se le pedira ingresar
+    scanf("%d", &n);
 
     return 0;
 }
